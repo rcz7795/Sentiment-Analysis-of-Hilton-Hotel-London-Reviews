@@ -1,4 +1,4 @@
-# Sentiment-Analysis-of-London-Hilton-Hotel-Reviews
+# Sentiment-Analysis-of-Hilton-Hotel-London-Reviews
 
 ![NLP](https://img.shields.io/badge/NLP-Sentiment_Analysis-blue.svg) 
 
@@ -53,13 +53,13 @@ The results from LSTMs are as follows:
 ![test](Snips/CM_3.JPG)
 
 
-## Conclusion :
+## Conclusions :
 
 After testing various ML models, ANNs and LSTMS, the ANN model using the test data and achieved an accuracy of 0.54 which is better than the Logistic Regression model and Bidirectional LSTMs.
 
 The error is more contained within adjacent scores with the ANN model. Almost zero confusion between extreme scores 1 and 5, and minimal confusion with scores 2 and 4. Although a score of 3 can be harder to predict, there is definitely an improvement from the Stacking model. Around 97% of the time the model predicts at least the adjacent score to the actual score.
 
-### Future Scope:
+### Future Scope :
   - Use a bigger training dataset
   - Try a deeper neural network
   - Reduce complexity of classification to binary classification
